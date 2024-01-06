@@ -4,10 +4,15 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
   
  } 
+ header{
+    background: #FFF8F3;
+ }
  
  nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin:  0 100px;
  }
  .nav-title{
     color:  #181818;
@@ -39,5 +44,17 @@ font-weight: 700;
 border: 0px;
 padding: 15px 35px;
 
+
+ }
+ .banner{
+     padding: 30px 30px 30px 100px ;
+ }
+ .banner-contain{
+    display: flex;
+    align-items: center;
+ }
+ .banner-img{
+    width: 500px;
+height: 600px;
 
  }
